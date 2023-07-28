@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(img.JPEG.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    
+    padding-top:10px ;
+    padding-left: 2px;
+    font-size: 40px;
+    
+}
+nav p{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    background-color:yellow;
+    display: inline-block;
+
+}
+.header{
+    padding-top:10px;
+    padding-left: 20px;
+}
+.world ul{
+    font-size: 25px;
+    
+
+}
+.world li{
+    display: inline-block;
+}
+.world li:hover{
+       color: black;
+       background-color: yellow;
+       transition: 0.5s;
+}
